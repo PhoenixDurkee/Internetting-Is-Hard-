@@ -15,8 +15,8 @@ body {
 
 .example {
   display: flex;
-  justify-content: flex-start /*space-around*/;
-
+  justify-content: space-around;
+  
   width: 800px;
   margin: 50px 0;
   background-color: #D6E9FE;
@@ -28,21 +28,21 @@ body {
 
 .item-relative {
   position: relative;
-  top: -60px;
+  top: -30px;
   left: -30px;
 }
 
-.absolute{
+.absolute {
   position: relative;
 }
 
-.item-absolute{
+.item-absolute {
   position: absolute;
   top: 10px;
   left: 10px;
 }
 
-.item-fixed{
+.item-fixed {
   position: fixed;
   bottom: 0;
   right: 0;
